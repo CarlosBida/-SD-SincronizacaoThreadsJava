@@ -1,1 +1,2 @@
 # -SD-SincronizacaoThreadsJava
+O código MeuDadoEvent implementa um sistema de produtor e consumidor que utiliza os métodos wait() e notify() para gerenciar o acesso a um dado compartilhado. Essa abordagem é diferente do que foi feito anteriormente no código MeuDadoMonitor, que apenas usava synchronized e dependia de variáveis booleanas para controlar o estado do dado. No MeuDadoMonitor, o código poderia ficar preso em um loop de espera ativa, o que não é eficiente e pode consumir muitos recursos 
